@@ -7,6 +7,7 @@ export default defineNitroConfig({
     },
     experimental: {
         asyncContext: true,
+        websocket: true,
         database: true,
         tasks: true,
     },
